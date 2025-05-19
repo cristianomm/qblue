@@ -1,0 +1,1418 @@
+{
+  "AIF-C01": {
+    "questions": [
+      {
+        "id": "A003",
+        "question": "Questão A003",
+        "text": "Qual dos seguintes é um exemplo de aprendizado supervisionado?",
+        "options": [
+          { "1": "Clusterização de dados de clientes para segmentação de mercado." },
+          { "2": "Classificação de e-mails como 'spam' ou 'não spam' com base em exemplos rotulados." },
+          { "3": "Exploração de um ambiente por um agente para maximizar recompensas." },
+          { "4": "Análise de sentimentos em textos sem dados rotulados." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O aprendizado supervisionado utiliza dados rotulados para treinar modelos. A classificação de e-mails como 'spam' ou 'não spam' com base em exemplos rotulados é um exemplo clássico desse tipo de aprendizado.",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html",
+        "topics": ["Fundamentos de AI e ML", "Aprendizado Supervisionado"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A004",
+        "question": "Questão A004",
+        "text": "Qual serviço da AWS permite a criação de aplicações de IA generativa sem necessidade de gerenciar infraestrutura?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Bedrock" },
+          { "3": "AWS Lambda" },
+          { "4": "Amazon EC2" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Bedrock permite que os desenvolvedores criem e escalem aplicações de IA generativa usando modelos fundacionais de diferentes provedores, sem necessidade de gerenciar infraestrutura.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Fundamentos de IA Generativa", "Serviços AWS"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A005",
+        "question": "Questão A005",
+        "text": "O que é 'prompt engineering' no contexto de modelos de linguagem?",
+        "options": [
+          { "1": "Processo de ajuste fino de hiperparâmetros de um modelo." },
+          { "2": "Técnica para melhorar a entrada fornecida a um modelo de linguagem para obter respostas desejadas." },
+          { "3": "Método de treinamento de modelos com grandes conjuntos de dados." },
+          { "4": "Estratégia para reduzir o tamanho de um modelo de linguagem." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Prompt engineering envolve a formulação cuidadosa de entradas (prompts) para modelos de linguagem a fim de obter respostas mais precisas e relevantes.",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering.html",
+        "topics": ["Fundamentos de IA Generativa", "Prompt Engineering"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A006",
+        "question": "Questão A006",
+        "text": "Quais são os pilares do AWS Well-Architected Framework? (Selecione todas as aplicáveis)",
+        "options": [
+          { "a": "Excelência Operacional" },
+          { "b": "Segurança" },
+          { "c": "Otimização de Custos" },
+          { "d": "Inovação Rápida" }
+        ],
+        "optiontype": "multiple",
+        "answer": ["a", "b", "c"],
+        "explanation": "Os pilares do AWS Well-Architected Framework incluem Excelência Operacional, Segurança, Confiabilidade, Eficiência de Performance, Otimização de Custos e Sustentabilidade.",
+        "reference": "https://aws.amazon.com/architecture/well-architected/",
+        "topics": ["Governança e Conformidade", "Boas Práticas AWS"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A007",
+        "question": "Questão A007",
+        "text": "Qual métrica é mais apropriada para avaliar a performance de um modelo de classificação binária?",
+        "options": [
+          { "1": "Erro Quadrático Médio (MSE)" },
+          { "2": "Acurácia" },
+          { "3": "R-quadrado" },
+          { "4": "Perplexidade" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A acurácia mede a proporção de previsões corretas em relação ao total de previsões, sendo apropriada para modelos de classificação binária.",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality-metrics.html",
+        "topics": ["Avaliação de Modelos", "Métricas de Performance"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A008",
+        "question": "Questão A008",
+        "text": "O que é 'overfitting' em modelos de machine learning?",
+        "options": [
+          { "1": "Quando o modelo generaliza bem para novos dados." },
+          { "2": "Quando o modelo é muito simples para capturar padrões nos dados." },
+          { "3": "Quando o modelo se ajusta excessivamente aos dados de treinamento, perdendo capacidade de generalização." },
+          { "4": "Quando o modelo apresenta baixa variância e alto viés." }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Overfitting ocorre quando um modelo aprende detalhes e ruídos dos dados de treinamento a ponto de prejudicar sua performance em dados não vistos.",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality-metrics.html",
+        "topics": ["Fundamentos de AI e ML", "Overfitting"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A009",
+        "question": "Questão A009",
+        "text": "Qual serviço da AWS pode ser usado para transcrever fala em texto?",
+        "options": [
+          { "1": "Amazon Polly" },
+          { "2": "Amazon Transcribe" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Translate" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Transcribe é um serviço de reconhecimento automático de fala que converte fala em texto.",
+        "reference": "https://aws.amazon.com/transcribe/",
+        "topics": ["Serviços AWS", "Processamento de Linguagem Natural"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A010",
+        "question": "Questão A010",
+        "text": "O que é 'bias' em modelos de machine learning?",
+        "options": [
+          { "1": "A capacidade do modelo de capturar variações nos dados." },
+          { "2": "A tendência do modelo de errar consistentemente em uma direção devido a suposições incorretas." },
+          { "3": "A variabilidade das previsões do modelo em diferentes conjuntos de dados." },
+          { "4": "A diferença entre a previsão do modelo e o valor real." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Bias refere-se à tendência de um modelo de cometer erros sistemáticos devido a suposições incorretas durante o processo de aprendizado.",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-bias-detect.html",
+        "topics": ["Fundamentos de AI e ML", "Bias em Modelos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A011",
+        "question": "Questão A011",
+        "text": "Qual serviço da AWS permite a tradução automática de textos entre diferentes idiomas?",
+        "options": [
+          { "1": "Amazon Comprehend" },
+          { "2": "Amazon Translate" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Polly" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Translate é um serviço de tradução automática neural que oferece traduções rápidas e precisas entre vários idiomas.",
+        "reference": "https://aws.amazon.com/translate/",
+        "topics": ["Serviços AWS", "Processamento de Linguagem Natural"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A012",
+        "question": "Questão A012",
+        "text": "Qual das seguintes opções descreve melhor o conceito de 'embedding' em IA?",
+        "options": [
+          { "1": "Uma técnica para reduzir o tamanho de um modelo." },
+          { "2": "Uma representação vetorial de dados que captura suas características semânticas." },
+          { "3": "Um método de regularização para evitar overfitting." },
+          { "4": "Uma métrica para avaliar a performance de modelos de classificação." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Embeddings são representações vetoriais densas que capturam as características semânticas de dados, como palavras ou imagens, facilitando o processamento por modelos de IA.",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-feature-importance.html",
+        "topics": ["Fundamentos de IA Generativa", "Embeddings"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A013",
+        "question": "Questão A013",
+        "text": "Qual serviço da AWS pode ser utilizado para detectar sentimentos em textos?",
+        "options": [
+          { "1": "Amazon Translate" },
+          { "2": "Amazon Comprehend" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Polly" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que utiliza machine learning para encontrar insights e relacionamentos em textos. Ele pode identificar sentimentos como positivo, negativo, neutro ou misto em documentos de texto.",
+        "reference": "https://docs.aws.amazon.com/comprehend/latest/dg/how-sentiment.html",
+        "topics": ["Serviços AWS", "Processamento de Linguagem Natural"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A014",
+        "question": "Questão A014",
+        "text": "Qual serviço da AWS permite a análise de imagens e vídeos para detectar objetos, cenas e atividades?",
+        "options": [
+          { "1": "Amazon Rekognition" },
+          { "2": "Amazon Polly" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Lex" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O Amazon Rekognition é um serviço que facilita a análise de imagens e vídeos, permitindo a detecção de objetos, cenas, atividades e reconhecimento facial.",
+        "reference": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html",
+        "topics": ["Serviços AWS", "Visão Computacional"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A015",
+        "question": "Questão A015",
+        "text": "Qual serviço da AWS converte texto em fala com vozes realistas?",
+        "options": [
+          { "1": "Amazon Polly" },
+          { "2": "Amazon Lex" },
+          { "3": "Amazon Transcribe" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O Amazon Polly é um serviço que transforma texto em fala realista, permitindo a criação de aplicações que falam e respondem aos usuários.",
+        "reference": "https://docs.aws.amazon.com/polly/",
+        "topics": ["Serviços AWS", "Conversão de Texto em Fala"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A016",
+        "question": "Questão A016",
+        "text": "Qual serviço da AWS permite a criação de chatbots com suporte a voz e texto?",
+        "options": [
+          { "1": "Amazon Lex" },
+          { "2": "Amazon Polly" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Translate" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O Amazon Lex é um serviço para construir interfaces de conversa em aplicações usando voz e texto, permitindo a criação de chatbots sofisticados.",
+        "reference": "https://docs.aws.amazon.com/lex/",
+        "topics": ["Serviços AWS", "Chatbots"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A017",
+        "question": "Questão A017",
+        "text": "Qual serviço da AWS é utilizado para tradução automática de textos entre diferentes idiomas?",
+        "options": [
+          { "1": "Amazon Translate" },
+          { "2": "Amazon Comprehend" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Polly" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O Amazon Translate é um serviço de tradução automática neural que oferece traduções rápidas e precisas entre vários idiomas.",
+        "reference": "https://docs.aws.amazon.com/translate/",
+        "topics": ["Serviços AWS", "Tradução de Idiomas"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A018",
+        "question": "Questão A018",
+        "text": "Qual serviço da AWS permite extrair texto e dados de documentos digitalizados, como PDFs e imagens?",
+        "options": [
+          { "1": "Amazon Rekognition" },
+          { "2": "Amazon Textract" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Translate" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Textract é um serviço que extrai automaticamente texto impresso, manuscrito e dados de documentos digitalizados, como PDFs e imagens.",
+        "reference": "https://docs.aws.amazon.com/textract/",
+        "topics": ["Serviços AWS", "Extração de Dados de Documentos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A019",
+        "question": "Questão A019",
+        "text": "Qual métrica é mais apropriada para avaliar a qualidade de resumos gerados por modelos de linguagem?",
+        "options": [
+          { "1": "Acurácia" },
+          { "2": "ROUGE" },
+          { "3": "Precisão" },
+          { "4": "Recall" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A métrica ROUGE (Recall-Oriented Understudy for Gisting Evaluation) é comumente usada para avaliar a qualidade de resumos gerados automaticamente, comparando-os com resumos de referência.",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-evaluation.html",
+        "topics": ["Avaliação de Modelos", "Métricas de Performance"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A020",
+        "question": "Questão A020",
+        "text": "Qual serviço da AWS permite a criação de agentes de IA generativa que podem executar tarefas complexas com base em instruções fornecidas?",
+        "options": [
+          { "1": "Amazon Lex" },
+          { "2": "Amazon Bedrock Agents" },
+          { "3": "Amazon SageMaker" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Bedrock Agents permite a criação de agentes de IA generativa que podem executar tarefas complexas com base em instruções fornecidas, utilizando modelos fundacionais.",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+        "topics": ["IA Generativa", "Agentes de IA"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A021",
+        "question": "Questão A021",
+        "text": "Qual serviço da AWS permite a criação de agentes de IA generativa que podem executar tarefas complexas com base em instruções fornecidas?",
+        "options": [
+          { "1": "Amazon Lex" },
+          { "2": "Amazon Bedrock Agents" },
+          { "3": "Amazon SageMaker" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Bedrock Agents permite a criação de agentes de IA generativa que podem executar tarefas complexas com base em instruções fornecidas, utilizando modelos fundacionais.",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+        "topics": ["IA Generativa", "Agentes de IA"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A052",
+        "question": "Questão A052",
+        "text": "Qual serviço da AWS permite a criação de chatbots com suporte a voz e texto?",
+        "options": [
+          { "1": "Amazon Lex" },
+          { "2": "Amazon Polly" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Translate" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O Amazon Lex é um serviço para construir interfaces de conversa em aplicações usando voz e texto, permitindo a criação de chatbots sofisticados.",
+        "reference": "https://docs.aws.amazon.com/lex/",
+        "topics": ["Serviços AWS", "Chatbots"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A054",
+        "question": "Questão A054",
+        "text": "Qual serviço da AWS permite extrair texto e dados de documentos digitalizados, como PDFs e imagens?",
+        "options": [
+          { "1": "Amazon Rekognition" },
+          { "2": "Amazon Textract" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Translate" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Textract é um serviço que extrai automaticamente texto impresso, manuscrito e dados de documentos digitalizados, como PDFs e imagens.",
+        "reference": "https://docs.aws.amazon.com/textract/",
+        "topics": ["Serviços AWS", "Extração de Dados de Documentos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A055",
+        "question": "Questão A055",
+        "text": "Qual métrica é mais apropriada para avaliar a qualidade de resumos gerados por modelos de linguagem?",
+        "options": [
+          { "1": "Acurácia" },
+          { "2": "ROUGE" },
+          { "3": "Precisão" },
+          { "4": "Recall" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A métrica ROUGE (Recall-Oriented Understudy for Gisting Evaluation) é comumente usada para avaliar a qualidade de resumos gerados automaticamente, comparando-os com resumos de referência.",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-evaluation.html",
+        "topics": ["Avaliação de Modelos", "Métricas de Performance"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A056",
+        "question": "Questão A056",
+        "text": "Qual serviço da AWS permite a criação de agentes de IA generativa que podem executar tarefas complexas com base em instruções fornecidas?",
+        "options": [
+          { "1": "Amazon Lex" },
+          { "2": "Amazon Bedrock Agents" },
+          { "3": "Amazon SageMaker" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Bedrock Agents permite a criação de agentes de IA generativa que podem executar tarefas complexas com base em instruções fornecidas, utilizando modelos fundacionais.",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+        "topics": ["IA Generativa", "Agentes de IA"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A057",
+        "question": "Questão A057",
+        "text": "Qual serviço da AWS pode armazenar vetores de incorporações (embeddings) para uma knowledge base de Retrieval-Augmented Generation (RAG) no Amazon Bedrock?",
+        "options": [
+          { "1": "Amazon Neptune" },
+          { "2": "Amazon Aurora PostgreSQL" },
+          { "3": "Amazon DynamoDB" },
+          { "4": "AWS Lake Formation" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Aurora PostgreSQL oferece suporte a campos vetoriais e pode ser usado como banco de vetores em knowledge bases do Amazon Bedrock, armazenando as incorporações geradas a partir dos seus dados.:contentReference[oaicite:0]{index=0}",
+        "reference": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.VectorDB.html",
+        "topics": ["RAG", "Armazenamento de Vetores", "Aurora"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A058",
+        "question": "Questão A058",
+        "text": "Qual serviço/funcionalidade da AWS ajuda a detectar viés e explicar previsões de modelos de Machine Learning em produção?",
+        "options": [
+          { "1": "Amazon Rekognition" },
+          { "2": "Amazon SageMaker Clarify" },
+          { "3": "AWS Config" },
+          { "4": "Amazon Bedrock Guardrails" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon SageMaker Clarify executa análises de viés em dados e modelos e gera explicações sobre as previsões, tanto em tempo de treinamento quanto de inferência.:contentReference[oaicite:1]{index=1}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-configure-processing-jobs.html",
+        "topics": ["IA Responsável", "Viés", "Explainability"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A059",
+        "question": "Questão A059",
+        "text": "Qual ferramenta baseada no Amazon Bedrock permite que qualquer pessoa crie aplicações de IA generativa através de uma interface low-code, apenas descrevendo o aplicativo desejado?",
+        "options": [
+          { "1": "AWS Amplify Studio" },
+          { "2": "PartyRock" },
+          { "3": "Amazon SageMaker Studio Lab" },
+          { "4": "AWS Cloud9" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "PartyRock é um playground do Amazon Bedrock que possibilita criar apps de IA generativa de forma visual e sem código, bastando descrever a ideia da aplicação.:contentReference[oaicite:2]{index=2}",
+        "reference": "https://aws.amazon.com/blogs/aws/introducing-new-partyrock-capabilities-and-free-daily-usage/",
+        "topics": ["IA Generativa", "Ferramentas Low-code"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A060",
+        "question": "Questão A060",
+        "text": "Para isolar o tráfego de rede entre a sua VPC e o Amazon Bedrock sem expor dados à Internet, qual serviço da AWS deve ser utilizado?",
+        "options": [
+          { "1": "AWS Direct Connect" },
+          { "2": "AWS PrivateLink" },
+          { "3": "AWS VPN Gateway" },
+          { "4": "AWS Transit Gateway" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O AWS PrivateLink permite acessar o Amazon Bedrock de forma privada dentro da VPC, assegurando que o tráfego de dados de IA generativa não saia da rede da AWS.:contentReference[oaicite:3]{index=3}",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/usingVPC.html",
+        "topics": ["Segurança", "Rede", "Bedrock"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A061",
+        "question": "Questão A061",
+        "text": "Retrieval-Augmented Generation (RAG) melhora as respostas de um modelo fundacional principalmente:",
+        "options": [
+          { "1": "Ajustando hiperparâmetros do modelo em tempo real." },
+          { "2": "Recuperando informações relevantes de uma base de dados externa antes de gerar a saída." },
+          { "3": "Diminuindo o tamanho do modelo para reduzir latência." },
+          { "4": "Aplicando compressão de pesos para economizar armazenamento." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "No RAG, o sistema busca dados atuais ou proprietários em uma knowledge base e passa esse contexto ao modelo, produzindo respostas mais relevantes e atualizadas.:contentReference[oaicite:4]{index=4}",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
+        "topics": ["RAG", "IA Generativa"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A062",
+        "question": "Questão A062",
+        "text": "Qual funcionalidade do Amazon SageMaker permite monitorar continuamente deriva de modelo (model drift) em produção?",
+        "options": [
+          { "1": "SageMaker Pipelines" },
+          { "2": "SageMaker Model Monitor" },
+          { "3": "AWS CloudTrail" },
+          { "4": "AWS CloudWatch Anomaly Detector" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O SageMaker Model Monitor rastreia métricas como deriva de dados e de viés, gerando alertas sempre que detecta desvios além dos limites configurados.:contentReference[oaicite:5]{index=5}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-bias-drift.html",
+        "topics": ["MLOps", "Monitoramento de Modelos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A063",
+        "question": "Questão A063",
+        "text": "Na engenharia de prompts, o método que fornece alguns exemplos explícitos dentro do próprio prompt para orientar a saída do modelo é conhecido como:",
+        "options": [
+          { "1": "Zero-shot" },
+          { "2": "Few-shot" },
+          { "3": "Chain-of-Thought" },
+          { "4": "Prompt negativo" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Few-shot prompting mostra ao modelo poucos exemplos corretos da tarefa dentro do prompt, ajudando-o a gerar respostas alinhadas.:contentReference[oaicite:6]{index=6}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-prompt-engineering.html",
+        "topics": ["Engenharia de Prompts"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A064",
+        "question": "Questão A064",
+        "text": "Uma principal vantagem de usar RAG em vez de ajustar finamente (fine-tune) um modelo fundacional é:",
+        "options": [
+          { "1": "Menor necessidade de armazenar embeddings." },
+          { "2": "Evitar custos de treinamento e permitir atualizar conteúdo sem re-treinar o modelo." },
+          { "3": "Garantir latência zero nas respostas." },
+          { "4": "Aumentar automaticamente o número de parâmetros do modelo." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "RAG injeta contexto de uma base externa no momento da inferência, dispensando o custo de ajuste fino e permitindo atualizar dados simplesmente renovando a base de conhecimento.:contentReference[oaicite:7]{index=7}",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
+        "topics": ["RAG", "Custos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A065",
+        "question": "Questão A065",
+        "text": "Para apoiar auditorias e governança em projetos de IA generativa no Amazon Bedrock, qual serviço oferece um framework de melhores práticas prontamente avaliável?",
+        "options": [
+          { "1": "AWS Artifact" },
+          { "2": "AWS Audit Manager" },
+          { "3": "AWS Config" },
+          { "4": "Amazon Inspector" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O AWS Audit Manager disponibiliza o \"AWS Generative AI Best Practices Framework v2\", que ajuda a monitorar e comprovar conformidade em soluções de IA generativa.:contentReference[oaicite:8]{index=8}",
+        "reference": "https://docs.aws.amazon.com/audit-manager/latest/userguide/aws-generative-ai-best-practices.html",
+        "topics": ["Governança", "Conformidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A066",
+        "question": "Questão A066",
+        "text": "Além do Amazon Aurora, qual outro serviço gerenciado da AWS suporta armazenamento de vetores e pode ser escolhido como base de vetores para o Amazon Bedrock?",
+        "options": [
+          { "1": "Amazon OpenSearch Service" },
+          { "2": "Amazon RDS for MySQL" },
+          { "3": "Amazon ElastiCache" },
+          { "4": "AWS Glue DataBrew" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O Amazon OpenSearch Service possui coleções de busca vetorial, permitindo armazenar e consultar embeddings em tempo real para aplicações RAG.:contentReference[oaicite:9]{index=9}",
+        "reference": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html",
+        "topics": ["Vector DB", "OpenSearch"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A067",
+        "question": "Questão A067",
+        "text": "Qual serviço da AWS identifica e classifica automaticamente dados sensíveis, como PII, armazenados no Amazon S3?",
+        "options": [
+          { "1": "AWS Key Management Service (KMS)" },
+          { "2": "Amazon Macie" },
+          { "3": "AWS Artifact" },
+          { "4": "Amazon GuardDuty" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Amazon Macie usa identificadores gerenciados e personalizados para localizar e classificar dados confidenciais nos buckets do S3.:contentReference[oaicite:0]{index=0}",
+        "reference": "https://docs.aws.amazon.com/macie/",
+        "topics": ["Segurança", "Proteção de Dados"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A068",
+        "question": "Questão A068",
+        "text": "No SageMaker Data Wrangler, qual recurso gera um relatório automático de ‘Data Quality & Insights’ para detectar problemas nos dados antes do treinamento do modelo?",
+        "options": [
+          { "1": "Built-in Transforms" },
+          { "2": "Data Quality & Insights Report" },
+          { "3": "Feature Store" },
+          { "4": "Pipelines" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Data Quality & Insights report do Data Wrangler avalia estatísticas, detecção de outliers e recomendações de limpeza em um fluxo de dados.:contentReference[oaicite:1]{index=1}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-data-insights.html",
+        "topics": ["MLOps", "Preparação de Dados"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A069",
+        "question": "Questão A069",
+        "text": "Qual funcionalidade do Amazon SageMaker ajuda a documentar detalhes críticos de um modelo para fins de governança e IA responsável?",
+        "options": [
+          { "1": "Model Cards" },
+          { "2": "Clarify Bias Report" },
+          { "3": "Model Monitor" },
+          { "4": "JumpStart" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "As Model Cards registram informações como uso pretendido, dados de treinamento, métricas e considerações éticas em um único local.:contentReference[oaicite:2]{index=2}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+        "topics": ["IA Responsável", "Governança"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A070",
+        "question": "Questão A070",
+        "text": "Qual serviço da AWS fornece acesso sob demanda a relatórios de conformidade (SOC, ISO) para ajudar na governança de projetos de IA?",
+        "options": [
+          { "1": "AWS Artifact" },
+          { "2": "AWS Config" },
+          { "3": "AWS Shield" },
+          { "4": "Amazon Inspector" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O AWS Artifact disponibiliza relatórios de auditoria e certificações que apoiam requisitos regulatórios e de governança.:contentReference[oaicite:3]{index=3}",
+        "reference": "https://aws.amazon.com/artifact/",
+        "topics": ["Governança", "Conformidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A071",
+        "question": "Questão A071",
+        "text": "Qual recurso do IAM ajuda a identificar acesso não intencional a buckets S3 ou funções IAM compartilhadas externamente?",
+        "options": [
+          { "1": "IAM Roles Anywhere" },
+          { "2": "IAM Access Analyzer" },
+          { "3": "Service Control Policies" },
+          { "4": "IAM Identity Center" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O IAM Access Analyzer usa raciocínio baseado em políticas para destacar recursos com acesso externo, mitigando riscos de exposição.:contentReference[oaicite:4]{index=4}",
+        "reference": "https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html",
+        "topics": ["Segurança", "Controle de Acesso"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A072",
+        "question": "Questão A072",
+        "text": "Qual métrica é amplamente utilizada para avaliar a qualidade de sistemas de tradução automática?",
+        "options": [
+          { "1": "F1-score" },
+          { "2": "BLEU" },
+          { "3": "Accuracy" },
+          { "4": "ROUGE" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "BLEU (Bilingual Evaluation Understudy) mede a sobreposição n-gram entre a tradução do modelo e traduções de referência.:contentReference[oaicite:5]{index=5}",
+        "reference": "https://cloud.google.com/translate/automl/docs/evaluate#bleu",
+        "topics": ["Avaliação de Modelos", "NLP"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A073",
+        "question": "Questão A073",
+        "text": "Nos modelos generativos, diminuir o valor do parâmetro ‘temperature’ resulta em:",
+        "options": [
+          { "1": "Respostas mais aleatórias e criativas" },
+          { "2": "Saídas mais determinísticas e previsíveis" },
+          { "3": "Aumento do tamanho de contexto" },
+          { "4": "Redução do custo por token" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Temperaturas mais baixas concentram a distribuição de probabilidade nas palavras de maior probabilidade, tornando a geração menos aleatória.:contentReference[oaicite:6]{index=6}",
+        "reference": "https://huggingface.co/blog/how-to-generate",
+        "topics": ["IA Generativa", "Parâmetros de Inferência"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A074",
+        "question": "Questão A074",
+        "text": "No Amazon Bedrock, a opção ‘Provisioned Throughput’ é recomendada quando o objetivo é:",
+        "options": [
+          { "1": "Pagar somente por tokens gerados sem compromisso" },
+          { "2": "Garantir performance consistente com custo reduzido por tempo de uso" },
+          { "3": "Melhorar a qualidade de geração alterando o modelo subjacente" },
+          { "4": "Treinar modelos fundacionais a partir do zero" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Provisioned Throughput reserva capacidade dedicada, oferecendo latência consistente e preço por token menor em troca de compromisso temporal.:contentReference[oaicite:7]{index=7}",
+        "reference": "https://aws.amazon.com/bedrock/pricing/",
+        "topics": ["Custos", "IA Generativa"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A075",
+        "question": "Questão A075",
+        "text": "Para proteger artefatos de modelos no Amazon SageMaker usando chaves gerenciadas pelo cliente, qual serviço é utilizado?",
+        "options": [
+          { "1": "AWS Key Management Service (KMS)" },
+          { "2": "Amazon Macie" },
+          { "3": "AWS PrivateLink" },
+          { "4": "AWS Secrets Manager" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O SageMaker integra-se ao AWS KMS para criptografar dados e artefatos de modelo em repouso com chaves administradas pelo cliente.:contentReference[oaicite:8]{index=8}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-aws-kms.html",
+        "topics": ["Segurança", "Criptografia"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A076",
+        "question": "Questão A076",
+        "text": "Quais categorias de conteúdo podem ser filtradas pelo Amazon Bedrock Guardrails? (Selecione todas as aplicáveis)",
+        "options": [
+          { "a": "Ódio" },
+          { "b": "Violência" },
+          { "c": "Informações Pessoais Sensíveis" },
+          { "d": "Uso de GPU Spot" }
+        ],
+        "optiontype": "multiple",
+        "answer": ["a", "b", "c"],
+        "explanation": "Guardrails permite configurar filtros para conteúdo de ódio, violência, sexo, insultos e PII, entre outros.:contentReference[oaicite:9]{index=9}",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+        "topics": ["IA Responsável", "Safety"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A077",
+        "question": "Questão A077",
+        "text": "O framework ‘AWS Generative AI Best Practices v2’ no AWS Audit Manager auxilia as equipes a:",
+        "options": [
+          { "1": "Criar modelos de linguagem do zero" },
+          { "2": "Auditar e coletar evidências de conformidade em projetos no Bedrock e SageMaker" },
+          { "3": "Gerar prompts automaticamente" },
+          { "4": "Dimensionar nós GPU em clusters EC2" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Esse framework pré-construído automatiza a coleta de evidências e monitora boas práticas em workloads de IA generativa.:contentReference[oaicite:10]{index=10}",
+        "reference": "https://docs.aws.amazon.com/audit-manager/latest/userguide/aws-generative-ai-best-practices.html",
+        "topics": ["Governança", "Conformidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A078",
+        "question": "Questão A078",
+        "text": "Ao integrar o Amazon Kendra com IA generativa, o principal benefício é:",
+        "options": [
+          { "1": "Substituir todos os FMs do Bedrock" },
+          { "2": "Oferecer respostas precisas baseadas em busca semântica e geração de texto" },
+          { "3": "Reduzir custo de armazenamento em S3" },
+          { "4": "Gerar relatórios de conformidade automaticamente" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O Kendra oferece busca semântica e pode gerar respostas contextualizadas via integração com Bedrock Knowledge Bases ou Amazon Q.:contentReference[oaicite:11]{index=11}",
+        "reference": "https://aws.amazon.com/kendra/",
+        "topics": ["RAG", "Busca Inteligente"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A079",
+        "question": "Questão A079",
+        "text": "Amazon SageMaker JumpStart fornece:",
+        "options": [
+          { "1": "Apenas notebooks em branco para codificação manual" },
+          { "2": "Modelos fundacionais prontos para uso em casos como geração de texto e código" },
+          { "3": "Somente pipelines de CI/CD" },
+          { "4": "Relatórios de custo detalhados" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "JumpStart disponibiliza FMs de última geração prontos para tarefas como copywriting, QA e geração de código.:contentReference[oaicite:12]{index=12}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models.html",
+        "topics": ["IA Generativa", "Modelos Fundacionais"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A080",
+        "question": "Questão A080",
+        "text": "As ‘Vector Search Collections’ no Amazon OpenSearch Service Serverless são ideais para:",
+        "options": [
+          { "1": "Executar apenas consultas SQL OLAP" },
+          { "2": "Armazenar e consultar embeddings para aplicações de IA generativa e RAG" },
+          { "3": "Hospedar contêineres Docker" },
+          { "4": "Processar dados de streaming em tempo real (Kinesis)" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O mecanismo vetorial do OpenSearch oferece busca de similaridade de alta performance para bilhões de vetores, simplificando apps generativas.:contentReference[oaicite:13]{index=13}",
+        "reference": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html",
+        "topics": ["Vector DB", "OpenSearch"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A081",
+        "question": "Questão A081",
+        "text": "O filtro de ‘Informações Sensíveis’ do Amazon Bedrock Guardrails pode:",
+        "options": [
+          { "1": "Bloquear ou mascarar PII detectada em prompts ou respostas" },
+          { "2": "Aumentar automaticamente o tamanho do modelo" },
+          { "3": "Gerar embeddings sem custo" },
+          { "4": "Provisionar throughput dedicado" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "Guardrails oferece filtragem ou mascaramento de PII como SSN, endereços e regex personalizados para proteger dados.:contentReference[oaicite:14]{index=14}",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-components.html",
+        "topics": ["IA Responsável", "Proteção de Dados"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A082",
+        "question": "Questão A082",
+        "text": "Na técnica de ‘few-shot prompting’, o prompt inclui:",
+        "options": [
+          { "1": "Nenhum exemplo da tarefa" },
+          { "2": "Vários exemplos explícitos (poucos) para orientar o modelo" },
+          { "3": "Centenas de exemplos rotulados" },
+          { "4": "Somente instruções negativas" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Few-shot fornece poucos exemplos dentro do próprio prompt, guiando o modelo para respostas desejadas sem ajuste fino.:contentReference[oaicite:15]{index=15}",
+        "reference": "https://platform.openai.com/docs/guides/gpt-best-practices",
+        "topics": ["Engenharia de Prompts"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A083",
+        "question": "Questão A083",
+        "text": "Comparado ao ajuste fino de um modelo, o uso de RAG para personalização tem a vantagem de:",
+        "options": [
+          { "1": "Eliminar a necessidade de armazenar embeddings" },
+          { "2": "Atualizar o conteúdo sem re-treinar o modelo principal" },
+          { "3": "Aumentar o tamanho de parâmetros do modelo" },
+          { "4": "Reduzir a latência a zero" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "RAG injeta contexto dinâmico recuperado de uma knowledge base; basta atualizar a base para refletir novos dados, sem re-treinar o FM.:contentReference[oaicite:16]{index=16}",
+        "reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
+        "topics": ["RAG", "Custos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A084",
+        "question": "Questão A084",
+        "text": "O AWS Audit Manager permite automatizar a coleta de evidências de boas práticas de IA generativa em qual(es) serviço(s)?",
+        "options": [
+          { "1": "Somente Amazon Bedrock" },
+          { "2": "Amazon Bedrock e Amazon SageMaker" },
+          { "3": "Somente Amazon EC2" },
+          { "4": "AWS IoT Core" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A versão v2 do framework cobre Bedrock e SageMaker, facilitando auditorias contínuas em ambos os ambientes.:contentReference[oaicite:17]{index=17}",
+        "reference": "https://aws.amazon.com/about-aws/whats-new/2024/06/aws-audit-manager-generative-ai-best-practices-framework-sagemaker",
+        "topics": ["Governança", "Conformidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A085",
+        "question": "Questão A085",
+        "text": "Qual serviço gerenciado da AWS pode atuar como banco de vetores para Knowledge Bases no Bedrock além do Amazon Aurora?",
+        "options": [
+          { "1": "Amazon OpenSearch Service" },
+          { "2": "Amazon RDS for Oracle" },
+          { "3": "AWS Glue DataBrew" },
+          { "4": "AWS Data Exchange" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "O OpenSearch Service oferece busca vetorial escalável e é suportado como armazenamento de embeddings para Knowledge Bases.:contentReference[oaicite:18]{index=18}",
+        "reference": "https://aws.amazon.com/opensearch-service/serverless-vector-database/",
+        "topics": ["Vector DB", "OpenSearch"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A086",
+        "question": "Questão A086",
+        "text": "No SageMaker Data Wrangler, as ‘built-in transforms’ permitem:",
+        "options": [
+          { "1": "Executar transformações em colunas sem precisar escrever código" },
+          { "2": "Provisionar throughput para modelos fundacionais" },
+          { "3": "Monitorar deriva de modelo em produção" },
+          { "4": "Coletar evidências de auditoria automaticamente" }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "As transforms incorporadas aplicam operações como normalização ou exclusão de colunas por meio de UI, sem scripts.:contentReference[oaicite:19]{index=19}",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-transform.html",
+        "topics": ["Preparação de Dados", "MLOps"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "001",
+        "question": "Questão 001",
+        "text": "Qual serviço da AWS é mais adequado para a extração de texto, caligrafia e dados de formulários e tabelas em documentos, utilizando Machine Learning?",
+        "options": [
+          { "1": "Amazon Rekognition" },
+          { "2": "Amazon Comprehend" },
+          { "3": "Amazon Textract" },
+          { "4": "Amazon Transcribe" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Textract é um serviço de Machine Learning que extrai automaticamente texto, caligrafia e dados de documentos digitalizados que podem ser formulários ou tabelas, sem a necessidade de modelos predefinidos ou código.",
+        "reference": "https://aws.amazon.com/pt/textract/",
+        "topics": ["AWS AI Services", "Document Processing", "Amazon Textract"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "002",
+        "question": "Questão 002",
+        "text": "Um cliente deseja converter texto em fala de forma natural para um aplicativo de leitura de notícias. Qual serviço da AWS é o mais recomendado para essa finalidade?",
+        "options": [
+          { "1": "Amazon Transcribe" },
+          { "2": "Amazon Polly" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Amazon Polly é um serviço de texto para fala que usa tecnologias avançadas de deep learning para sintetizar fala que soa como uma voz humana. É ideal para criar aplicativos que falam.",
+        "reference": "https://aws.amazon.com/pt/polly/",
+        "topics": ["AWS AI Services", "Text-to-Speech", "Amazon Polly"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "003",
+        "question": "Questão 003",
+        "text": "Qual serviço da AWS permite adicionar funcionalidade de análise de imagem e vídeo a seus aplicativos, sem a necessidade de experiência em Machine Learning?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Rekognition" },
+          { "3": "Amazon Personalize" },
+          { "4": "Amazon Forecast" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Amazon Rekognition é um serviço de visão computacional que facilita a adição de análise de imagem e vídeo aos seus aplicativos. Ele pode identificar objetos, pessoas, texto, cenas e atividades, bem como detectar conteúdo impróprio.",
+        "reference": "https://aws.amazon.com/pt/rekognition/",
+        "topics": ["AWS AI Services", "Computer Vision", "Amazon Rekognition"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "004",
+        "question": "Questão 004",
+        "text": "Para construir um chatbot conversacional para atendimento ao cliente que entenda a intenção do usuário e responda de forma apropriada, qual serviço da AWS deve ser utilizado?",
+        "options": [
+          { "1": "Amazon Polly" },
+          { "2": "Amazon Transcribe" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Lex é um serviço para construir interfaces de conversação em qualquer aplicativo usando voz e texto. Ele fornece a funcionalidade de reconhecimento automático de fala (ASR) para converter fala em texto e compreensão de linguagem natural (NLU) para entender a intenção do texto.",
+        "reference": "https://aws.amazon.com/pt/lex/",
+        "topics": ["AWS AI Services", "Conversational AI", "Chatbots", "Amazon Lex"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "005",
+        "question": "Questão 005",
+        "text": "Um analista de dados precisa prever a demanda futura de produtos com base em dados históricos de vendas. Qual serviço da AWS, totalmente gerenciado, é projetado especificamente para previsões de séries temporais usando Machine Learning?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Personalize" },
+          { "3": "Amazon Forecast" },
+          { "4": "Amazon Redshift ML" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Forecast é um serviço de Machine Learning totalmente gerenciado que usa dados históricos para gerar previsões de séries temporais de alta precisão. É aplicável a vários casos de uso, como previsão de demanda de produtos, planejamento de capacidade e tráfego da web.",
+        "reference": "https://aws.amazon.com/pt/forecast/",
+        "topics": ["AWS AI Services", "Time-series Forecasting", "Amazon Forecast"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "006",
+        "question": "Questão 006",
+        "text": "Qual serviço da AWS permite que desenvolvedores adicionem recursos de compreensão de linguagem natural (NLU) aos seus aplicativos para analisar texto e extrair insights, como sentimentos, entidades e tópicos?",
+        "options": [
+          { "1": "Amazon Translate" },
+          { "2": "Amazon Transcribe" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Lex" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa Machine Learning para encontrar insights e relacionamentos em texto. Ele pode identificar o idioma, o sentimento, entidades nomeadas, frases-chave e tópicos em um corpo de texto.",
+        "reference": "https://aws.amazon.com/pt/comprehend/",
+        "topics": ["AWS AI Services", "Natural Language Processing", "Amazon Comprehend"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "007",
+        "question": "Questão 007",
+        "text": "Para um aplicativo que precisa fornecer recomendações personalizadas em tempo real para seus usuários, como sugestões de produtos ou filmes, qual serviço da AWS baseado em Machine Learning é o mais adequado?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Personalize" },
+          { "3": "Amazon Rekognition" },
+          { "4": "Amazon Polly" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Amazon Personalize é um serviço de Machine Learning que permite que os desenvolvedores criem aplicativos com recursos de recomendação personalizados, usando a mesma tecnologia de ML usada pela Amazon.com para personalização em tempo real.",
+        "reference": "https://aws.amazon.com/pt/personalize/",
+        "topics": ["AWS AI Services", "Personalization", "Recommendations", "Amazon Personalize"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "008",
+        "question": "Questão 008",
+        "text": "Um centro de chamadas deseja transcrever gravações de áudio de interações com clientes para análise posterior. Qual serviço da AWS converterá automaticamente a fala em texto?",
+        "options": [
+          { "1": "Amazon Polly" },
+          { "2": "Amazon Transcribe" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Comprehend Medical" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Amazon Transcribe é um serviço de Machine Learning que facilita a adição da funcionalidade de fala para texto a seus aplicativos. Ele pode transcrever gravações de áudio e vídeo de várias fontes.",
+        "reference": "https://aws.amazon.com/pt/transcribe/",
+        "topics": ["AWS AI Services", "Speech-to-Text", "Amazon Transcribe"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "009",
+        "question": "Questão 009",
+        "text": "Qual o principal benefício de usar serviços de IA da AWS em vez de construir modelos de Machine Learning do zero em um ambiente local?",
+        "options": [
+          { "1": "Maior controle sobre o hardware subjacente" },
+          { "2": "Redução da necessidade de conhecimento especializado em ML e gerenciamento de infraestrutura" },
+          { "3": "Custos iniciais mais altos para configuração" },
+          { "4": "Dependência de um único fornecedor de nuvem" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Os serviços de IA da AWS (como Rekognition, Polly, Comprehend) são serviços totalmente gerenciados que abstraem a complexidade subjacente do Machine Learning, permitindo que os usuários se concentrem em integrar a funcionalidade de IA em seus aplicativos sem a necessidade de amplo conhecimento em ML ou gerenciamento de infraestrutura.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/ai-services/",
+        "topics": ["AWS AI Services", "Benefits of Cloud AI", "ML Advantages"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "010",
+        "question": "Questão 010",
+        "text": "Um cientista de dados precisa de uma plataforma robusta e flexível para construir, treinar e implantar modelos de Machine Learning personalizados em escala. Qual serviço da AWS é a melhor opção?",
+        "options": [
+          { "1": "AWS Lambda" },
+          { "2": "Amazon SageMaker" },
+          { "3": "Amazon EC2" },
+          { "4": "Amazon RDS" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Amazon SageMaker é um serviço totalmente gerenciado que fornece a cada desenvolvedor e cientista de dados a capacidade de construir, treinar e implantar modelos de machine learning (ML) rapidamente. Ele oferece uma ampla gama de ferramentas e recursos para o ciclo de vida completo do ML.",
+        "reference": "https://aws.amazon.com/pt/sagemaker/",
+        "topics": ["AWS ML Platform", "Amazon SageMaker", "Machine Learning Development"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "011",
+        "question": "Questão 011",
+        "text": "Qual é uma característica fundamental da Inteligência Artificial (IA)?",
+        "options": [
+          { "1": "A capacidade de máquinas executarem apenas tarefas repetitivas e programadas" },
+          { "2": "A simulação da inteligência humana em máquinas que são programadas para pensar como humanos e imitar suas ações" },
+          { "3": "A habilidade de computadores realizarem cálculos matemáticos complexos em alta velocidade" },
+          { "4": "O armazenamento de grandes volumes de dados para análise posterior" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A Inteligência Artificial (IA) é a simulação da inteligência humana em máquinas que são programadas para pensar como humanos e imitar suas ações. Isso inclui capacidades como aprendizado, raciocínio, resolução de problemas, percepção e compreensão da linguagem.",
+        "reference": "https://aws.amazon.com/pt/what-is/ai/",
+        "topics": ["Foundations of AI/ML", "Artificial Intelligence Concepts"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "012",
+        "question": "Questão 012",
+        "text": "Qual das seguintes opções descreve melhor o Machine Learning (ML)?",
+        "options": [
+          { "1": "Um campo da IA que permite que os sistemas aprendam com dados, identifiquem padrões e tomem decisões com mínima intervenção humana." },
+          { "2": "Uma tecnologia que permite a máquinas realizarem conversas como humanos usando regras predefinidas." },
+          { "3": "O processo de transformar texto em fala utilizando algoritmos complexos." },
+          { "4": "A área da ciência da computação focada exclusivamente em robótica e automação física." }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "Machine Learning (ML) é um subcampo da inteligência artificial (IA) que permite que os sistemas aprendam com dados, identifiquem padrões e tomem decisões com mínima intervenção humana, sem serem explicitamente programados para cada tarefa.",
+        "reference": "https://aws.amazon.com/pt/what-is/machine-learning/",
+        "topics": ["Foundations of AI/ML", "Machine Learning Concepts"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "013",
+        "question": "Questão 013",
+        "text": "Ao considerar a responsabilidade da IA, qual dos seguintes é um desafio importante a ser mitigado em modelos de ML?",
+        "options": [
+          { "1": "Aumento dos custos de armazenamento de dados" },
+          { "2": "Viés (Bias) nos dados de treinamento que leva a resultados injustos ou discriminatórios" },
+          { "3": "Dificuldade em integrar modelos de ML com sistemas legados" },
+          { "4": "A necessidade de infraestrutura de rede de alta velocidade" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Viés (Bias) é um desafio crítico na IA responsável. Se os dados de treinamento usados para criar um modelo de ML contiverem preconceitos sociais ou históricos, o modelo pode aprender e perpetuar esses preconceitos, levando a resultados injustos ou discriminatórios. A mitigação do viés é fundamental para garantir a equidade e a justiça nos sistemas de IA.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/responsible-ai/",
+        "topics": ["Responsible AI", "Bias in ML", "Ethics of AI"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "014",
+        "question": "Questão 014",
+        "text": "Qual princípio da IA responsável se concentra na capacidade de explicar como um modelo de IA chegou a uma determinada decisão?",
+        "options": [
+          { "1": "Privacidade de Dados" },
+          { "2": "Transparência e Explicabilidade" },
+          { "3": "Segurança de Dados" },
+          { "4": "Robustez" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Transparência e Explicabilidade na IA responsável refere-se à capacidade de compreender como um sistema de IA funciona e por que ele toma certas decisões, tornando-o mais auditável e confiável. Isso é crucial para garantir a equidade e a responsabilidade.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/responsible-ai/",
+        "topics": ["Responsible AI", "Explainable AI (XAI)", "Transparency"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "015",
+        "question": "Questão 015",
+        "text": "Um dos principais benefícios de usar serviços gerenciados de IA/ML na AWS, como o Amazon Rekognition ou Amazon Comprehend, é:",
+        "options": [
+          { "1": "Exige que o cliente gerencie servidores e patches de segurança." },
+          { "2": "Permite que o cliente se concentre no desenvolvimento de recursos em vez de gerenciar a infraestrutura subjacente." },
+          { "3": "Oferece controle total sobre o código-fonte dos modelos de ML pré-treinados." },
+          { "4": "É exclusivo para clientes com vasto conhecimento em Deep Learning." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Serviços gerenciados de IA/ML na AWS abstraem a complexidade da infraestrutura, do provisionamento e da manutenção. Isso permite que os desenvolvedores e empresas se concentrem em construir e inovar com recursos de IA, em vez de gastar tempo e recursos no gerenciamento de servidores e software de ML.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/ai-services/",
+        "topics": ["AI/ML Economics", "Benefits of Cloud AI", "Managed Services"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "016",
+        "question": "Questão 016",
+        "text": "Qual serviço da AWS pode ser usado para traduzir texto entre idiomas de forma rápida e precisa?",
+        "options": [
+          { "1": "Amazon Polly" },
+          { "2": "Amazon Transcribe" },
+          { "3": "Amazon Translate" },
+          { "4": "Amazon Comprehend" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Translate é um serviço de tradução neural que oferece traduções de idioma rápidas, de alta qualidade e acessíveis. Ele é ideal para traduzir texto entre diferentes idiomas.",
+        "reference": "https://aws.amazon.com/pt/translate/",
+        "topics": ["AWS AI Services", "Language Translation", "Amazon Translate"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "017",
+        "question": "Questão 017",
+        "text": "Uma empresa deseja criar um mecanismo de busca corporativo que permita aos funcionários encontrar informações em uma vasta coleção de documentos, incluindo PDFs, wikis e bases de conhecimento. Qual serviço da AWS pode ajudar a construir esse recurso de busca inteligente?",
+        "options": [
+          { "1": "Amazon RDS" },
+          { "2": "Amazon S3" },
+          { "3": "Amazon Kendra" },
+          { "4": "Amazon EMR" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Kendra é um serviço de pesquisa inteligente e altamente preciso desenvolvido por Machine Learning. Ele pode indexar e pesquisar informações em várias fontes de dados, tornando mais fácil para as organizações encontrar o que precisam em sua vasta documentação.",
+        "reference": "https://aws.amazon.com/pt/kendra/",
+        "topics": ["AWS AI Services", "Enterprise Search", "Amazon Kendra"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "018",
+        "question": "Questão 018",
+        "text": "Qual das seguintes é uma métrica comumente usada para avaliar o desempenho de modelos de classificação em Machine Learning?",
+        "options": [
+          { "1": "Throughput" },
+          { "2": "Latência" },
+          { "3": "Acurácia" },
+          { "4": "Utilização da CPU" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Acurácia é uma métrica de avaliação comum para modelos de classificação, que mede a proporção de previsões corretas em relação ao número total de previsões. É um indicador de quão bem o modelo está realizando a tarefa de classificação.",
+        "reference": "https://docs.aws.amazon.com/pt_br/sagemaker/latest/dg/model-metrics.html",
+        "topics": ["Foundations of AI/ML", "ML Metrics", "Model Evaluation"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "019",
+        "question": "Questão 019",
+        "text": "Ao projetar um sistema de IA, qual é um aspecto importante do 'Data Governance' (Governança de Dados) para garantir a conformidade e a ética?",
+        "options": [
+          { "1": "Ignorar a fonte dos dados para evitar viés." },
+          { "2": "Estabelecer políticas e processos para gerenciamento, privacidade e segurança de dados." },
+          { "3": "Coletar o máximo de dados possível, independentemente de sua relevância." },
+          { "4": "Permitir que qualquer pessoa acesse os dados de treinamento sem restrições." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A governança de dados em IA responsável envolve estabelecer políticas e processos claros para o gerenciamento, privacidade e segurança dos dados usados para treinar e operar modelos de IA. Isso é crucial para garantir a conformidade com regulamentações e padrões éticos.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/responsible-ai/",
+        "topics": ["Responsible AI", "Data Governance", "Data Privacy"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "020",
+        "question": "Questão 020",
+        "text": "Qual das seguintes é um conceito fundamental de 'Deep Learning'?",
+        "options": [
+          { "1": "Uso de redes neurais com múltiplas camadas (profundas) para aprender representações hierárquicas dos dados." },
+          { "2": "Concentra-se apenas em algoritmos baseados em árvores de decisão." },
+          { "3": "Exige intervenção humana constante para ajustar os parâmetros do modelo." },
+          { "4": "É um tipo de aprendizado não supervisionado, onde os dados são sempre rotulados." }
+        ],
+        "optiontype": "unique",
+        "answer": "1",
+        "explanation": "Deep Learning é um subcampo do Machine Learning que utiliza redes neurais artificiais com múltiplas camadas (profundas) para modelar abstrações de alto nível nos dados. Essa estrutura permite que o modelo aprenda representações complexas e hierárquicas dos dados.",
+        "reference": "https://aws.amazon.com/pt/what-is/deep-learning/",
+        "topics": ["Foundations of AI/ML", "Deep Learning Concepts", "Neural Networks"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "021",
+        "question": "Questão 021",
+        "text": "Uma empresa de manufatura deseja usar Machine Learning para detectar anomalias em dados de sensores de equipamentos industriais em tempo real, a fim de prever falhas e otimizar a manutenção. Qual serviço da AWS é projetado para esse caso de uso?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Comprehend" },
+          { "3": "Amazon Lookout for Equipment" },
+          { "4": "Amazon Textract" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Lookout for Equipment é um serviço de Machine Learning que usa os dados de seus sensores industriais para detectar comportamentos anormais de equipamentos, permitindo a detecção precoce de possíveis falhas e a implementação de manutenção preditiva.",
+        "reference": "https://aws.amazon.com/pt/lookout-for-equipment/",
+        "topics": ["AWS AI Services", "Industrial ML", "Predictive Maintenance", "Amazon Lookout for Equipment"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "022",
+        "question": "Questão 022",
+        "text": "Ao considerar a otimização de custos para soluções de IA/ML na AWS, qual estratégia pode ajudar a reduzir despesas?",
+        "options": [
+          { "1": "Provisionar instâncias de ML sobredimensionadas para garantir desempenho máximo, mesmo em períodos de baixa demanda." },
+          { "2": "Utilizar instâncias Spot para cargas de trabalho de treinamento de modelos que podem tolerar interrupções." },
+          { "3": "Executar todos os modelos de inferência em GPUs de alto custo, independentemente da complexidade do modelo." },
+          { "4": "Ignorar o monitoramento de recursos para evitar custos adicionais de ferramentas de monitoramento." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O uso de instâncias Spot é uma estratégia eficaz para otimização de custos em Machine Learning, especialmente para cargas de trabalho de treinamento que podem ser interrompidas e retomadas. As instâncias Spot permitem que os clientes usem capacidade EC2 não utilizada com grandes descontos.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/ml-and-aws-costs/",
+        "topics": ["AI/ML Economics", "Cost Optimization", "AWS Spot Instances"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "023",
+        "question": "Questão 023",
+        "text": "Qual das seguintes aplicações é um caso de uso comum para visão computacional (Computer Vision) na IA?",
+        "options": [
+          { "1": "Conversão de fala em texto" },
+          { "2": "Detecção de objetos em imagens" },
+          { "3": "Análise de sentimento de texto" },
+          { "4": "Geração de previsões de séries temporais" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Detecção de objetos em imagens é um caso de uso clássico da visão computacional, que envolve a identificação e localização de objetos dentro de uma imagem ou vídeo. Serviços como o Amazon Rekognition fornecem essa capacidade.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/what-is-computer-vision/",
+        "topics": ["Foundations of AI/ML", "Computer Vision", "Use Cases"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "024",
+        "question": "Questão 024",
+        "text": "Ao implantar um modelo de Machine Learning, o que é 'Inferência'?",
+        "options": [
+          { "1": "O processo de coletar os dados de treinamento para o modelo." },
+          { "2": "A fase em que o modelo aprende padrões a partir dos dados." },
+          { "3": "O uso de um modelo treinado para fazer previsões ou tomar decisões sobre novos dados." },
+          { "4": "A etapa de otimização dos hiperparâmetros do modelo." }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Inferência em Machine Learning refere-se ao processo de usar um modelo treinado para fazer previsões ou tomar decisões sobre novos dados (não vistos anteriormente). É a fase de aplicação prática do modelo.",
+        "reference": "https://docs.aws.amazon.com/pt_br/sagemaker/latest/dg/deploy-model.html",
+        "topics": ["Foundations of AI/ML", "ML Lifecycle", "Inference"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "025",
+        "question": "Questão 025",
+        "text": "Qual o objetivo principal do AWS Well-Architected Framework ao ser aplicado em cargas de trabalho de IA/ML?",
+        "options": [
+          { "1": "Aumentar a complexidade das arquiteturas para demonstrar habilidades avançadas." },
+          { "2": "Ajudar a construir sistemas de nuvem mais seguros, de alto desempenho, resilientes, eficientes e sustentáveis." },
+          { "3": "Forçar o uso de serviços específicos da AWS, independentemente dos requisitos do negócio." },
+          { "4": "Reduzir o número de serviços utilizados para minimizar o custo total." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "O AWS Well-Architected Framework oferece orientação sobre como construir as arquiteturas mais seguras, de alto desempenho, resilientes, eficientes e sustentáveis possíveis para suas cargas de trabalho na nuvem, incluindo aquelas de IA/ML.",
+        "reference": "https://aws.amazon.com/pt/architecture/well-architected/",
+        "topics": ["AWS Well-Architected Framework", "AI/ML Architecture", "Best Practices"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "026",
+        "question": "Questão 026",
+        "text": "Uma empresa deseja automatizar a triagem de documentos de seguros, extraindo informações chave como nome do cliente, data de sinistro e tipo de apólice. Qual serviço da AWS é mais adequado para essa tarefa?",
+        "options": [
+          { "1": "Amazon Comprehend" },
+          { "2": "Amazon Rekognition" },
+          { "3": "Amazon Textract" },
+          { "4": "Amazon Polly" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Textract é o serviço ideal para extrair texto, dados de formulários e tabelas de documentos, o que é perfeito para automatizar a triagem de documentos de seguros e extrair informações estruturadas.",
+        "reference": "https://aws.amazon.com/pt/textract/",
+        "topics": ["AWS AI Services", "Document Processing", "Amazon Textract", "Use Cases"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "027",
+        "question": "Questão 027",
+        "text": "Qual das seguintes preocupações está diretamente relacionada à 'privacidade de dados' ao desenvolver e implantar sistemas de IA?",
+        "options": [
+          { "1": "Garantir que os modelos de IA sejam acessíveis publicamente." },
+          { "2": "Minimizar o uso de dados pessoais e sensíveis e proteger as informações dos usuários." },
+          { "3": "Aumentar a complexidade dos algoritmos de ML para melhorar a segurança." },
+          { "4": "Compartilhar dados de treinamento com terceiros sem consentimento explícito." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "A privacidade de dados na IA envolve minimizar a coleta de dados pessoais e sensíveis, implementar medidas de proteção (como criptografia e anonimização) e garantir o consentimento adequado para o uso de dados, protegendo assim as informações dos usuários.",
+        "reference": "https://aws.amazon.com/pt/machine-learning/responsible-ai/",
+        "topics": ["Responsible AI", "Data Privacy", "Ethics of AI"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "028",
+        "question": "Questão 028",
+        "text": "Qual das seguintes características define o 'Aprendizado Supervisionado' em Machine Learning?",
+        "options": [
+          { "1": "O modelo aprende a partir de dados não rotulados, encontrando padrões e estruturas." },
+          { "2": "O modelo é treinado em dados que incluem tanto as entradas quanto os resultados desejados (rótulos)." },
+          { "3": "O modelo interage com um ambiente e recebe recompensas ou punições para aprender a se comportar." },
+          { "4": "O modelo é programado explicitamente com regras para tomar decisões." }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "No Aprendizado Supervisionado, o modelo é treinado usando um conjunto de dados rotulados, ou seja, dados onde a saída desejada (o 'rótulo' ou 'resposta' correta) é conhecida. O modelo aprende a mapear entradas para saídas, e pode então fazer previsões sobre novos dados não vistos.",
+        "reference": "https://aws.amazon.com/pt/what-is/machine-learning/#supervised-learning",
+        "topics": ["Foundations of AI/ML", "Supervised Learning", "ML Types"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "029",
+        "question": "Questão 029",
+        "text": "Uma empresa precisa analisar transcrições de conversas de call center para identificar automaticamente tópicos, sentimentos e entidades-chave, sem a necessidade de construir e treinar modelos de ML personalizados. Qual serviço da AWS é o mais adequado?",
+        "options": [
+          { "1": "Amazon Lex" },
+          { "2": "Amazon Comprehend" },
+          { "3": "Amazon SageMaker" },
+          { "4": "Amazon Translate" }
+        ],
+        "optiontype": "unique",
+        "answer": "2",
+        "explanation": "Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que pode analisar texto e extrair insights como sentimentos, entidades e tópicos, sem a necessidade de construir modelos de ML. É ideal para analisar transcrições de conversas de call center.",
+        "reference": "https://aws.amazon.com/pt/comprehend/",
+        "topics": ["AWS AI Services", "Natural Language Processing", "Amazon Comprehend", "Use Cases"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "030",
+        "question": "Questão 030",
+        "text": "Qual serviço da AWS permite que você crie um mecanismo de detecção de fraudes usando Machine Learning, mesmo sem experiência prévia em ML?",
+        "options": [
+          { "1": "Amazon Rekognition" },
+          { "2": "Amazon Forecast" },
+          { "3": "Amazon Fraud Detector" },
+          { "4": "Amazon Textract" }
+        ],
+        "optiontype": "unique",
+        "answer": "3",
+        "explanation": "Amazon Fraud Detector é um serviço totalmente gerenciado que usa Machine Learning para identificar atividades fraudulentas em potencial, como fraudes de pagamento online e criação de contas falsas. Ele usa anos de experiência da Amazon com detecção de fraudes, permitindo que as empresas detectem mais fraudes com mais rapidez.",
+        "reference": "https://aws.amazon.com/pt/fraud-detector/",
+        "topics": ["AWS AI Services", "Fraud Detection", "Amazon Fraud Detector"],
+        "test": "AIF-C01"
+      }
+
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<div class="max-w-md mx-auto mt-10 p-8 bg-white rounded-xl shadow-lg">
+  <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Configurar Teste</h1>
+  <div class="space-y-6">
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Selecione o Teste:</label>
+      <div class="mt-1">
+        <select [(ngModel)]="selectedTest" class="block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+          <option *ngFor="let test of availableTests" [value]="test.id">{{ test.name }}</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Quantidade de perguntas:</label>
+      <div class="mt-1">
+        <input type="number" [(ngModel)]="testSize" class="block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+      </div>
+    </div>    
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Tempo Limite (minutos):</label>
+      <div class="mt-1">
+        <input type="number" [(ngModel)]="timeLimit" class="block w-full px-3 py-2 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" />
+      </div>
+    </div>
+    <button (click)="startTest()" class="w-full py-3 px-4 bg-blue-600 text-white rounded-md">Iniciar Teste</button>
+  </div>
+  <p *ngIf="error" class="text-sm text-red-600 mt-4">{{ error }}</p>
+</div>

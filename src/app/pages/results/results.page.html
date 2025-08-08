@@ -1,0 +1,105 @@
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+  <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Resultados do Teste</h1>
+  
+  <div *ngIf="!results">
+    <div class="text-center p-10">Carregando resultados...</div>
+  </div>
+
+  <div *ngIf="results">
+    <div class="bg-blue-50 p-6 rounded-lg shadow-md mb-8 text-center">
+      <h2 class="text-2xl font-semibold text-blue-700">
+        Sua Pontuação: {{ results.score }} de {{ results.totalQuestions }}
+      </h2>
+      <p class="text-lg text-blue-600 mt-1">
+        ({{ ((results.score / results.totalQuestions) * 100 || 0) | number:'1.1-1' }}%)
+      </p>
+      <p class="text-sm text-gray-600 mt-2">
+        Tempo Utilizado: 
+        <span *ngIf="results.timeTaken !== undefined">{{ formatTime(results.timeTaken) }}</span>
+        <span *ngIf="results.timeTaken === undefined">-</span>
+      </p>
+    </div>
+
+    <div class="space-y-6" *ngIf="results.detailedResults && results.detailedResults.length > 0">
+      <h2 class="text-2xl font-semibold text-gray-700 mb-4">Detalhes das Questões:</h2>
+      <div 
+        *ngFor="let item of results.detailedResults" 
+        class="p-5 rounded-lg shadow border-l-4" 
+        [ngClass]="{
+          'border-green-500 bg-green-50': item.isCorrect,
+          'border-red-500 bg-red-50': !item.isCorrect && item.isAnswered,
+          'border-yellow-500 bg-yellow-50': !item.isCorrect && !item.isAnswered
+        }"
+      >
+        <h3 class="text-lg font-semibold text-gray-800">{{ item.question }} - {{ item.text }}</h3>
+        <p class="mt-2 text-sm">
+          <strong>Sua Resposta: </strong>
+          <span [ngClass]="{
+            'text-green-700': item.isCorrect,
+            'text-red-700': !item.isCorrect && item.isAnswered,
+            'text-yellow-700 font-semibold': !item.isCorrect && !item.isAnswered
+          }">
+            <ng-container *ngIf="!item.isAnswered">
+              Não respondida
+            </ng-container>
+            <ng-container *ngIf="item.isAnswered">
+              <ng-container *ngFor="let segment of renderOptionTextWithLink(getAnswerDisplay(item, item.userAnswer))">
+                <span *ngIf="segment.type === 'text'">{{ segment.content }}</span>
+                <a *ngIf="segment.type === 'link'" 
+                   [href]="segment.url" 
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-blue-500 hover:underline">
+                  {{ segment.url }}
+                </a>
+              </ng-container>
+            </ng-container>
+          </span>
+        </p>
+        <p class="mt-1 text-sm" *ngIf="!item.isCorrect">
+          <strong>Resposta Correta: </strong>
+          <span class="text-green-700">
+            <ng-container *ngFor="let segment of renderOptionTextWithLink(getAnswerDisplay(item, item.answer))">
+              <span *ngIf="segment.type === 'text'">{{ segment.content }}</span>
+              <a *ngIf="segment.type === 'link'" 
+                 [href]="segment.url" 
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="text-blue-500 hover:underline">
+                {{ segment.url }}
+              </a>
+            </ng-container>
+          </span>
+        </p>
+        <p class="mt-2 text-sm text-gray-600" *ngIf="item.explanation">
+          <strong>Explicação:</strong> 
+          <span>
+            <ng-container *ngFor="let segment of renderOptionTextWithLink(item.explanation)">
+              <span *ngIf="segment.type === 'text'">{{ segment.content }}</span>
+              <a *ngIf="segment.type === 'link'" 
+                 [href]="segment.url" 
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="text-blue-500 hover:underline">
+                {{ segment.url }}
+              </a>
+            </ng-container>
+          </span>
+        </p>
+        <p class="mt-1 text-sm" *ngIf="item.reference">
+          <strong>Referência: </strong>
+          <a [href]="item.reference" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
+            {{ item.reference }}
+          </a>
+        </p>
+      </div>
+    </div>
+    
+    <button
+      (click)="returnToHome()"
+      class="mt-10 w-full sm:w-auto block mx-auto px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+    >
+      Fazer Novo Teste
+    </button>
+  </div>
+</div>

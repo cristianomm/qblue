@@ -40,6 +40,13 @@ export class QuestionService {
           const j = Math.floor(Math.random() * (i + 1));
           [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
+
+        for(let i=0; i < shuffled.length; i++){
+          let questionId = i + 1;
+          shuffled[i].id = questionId;
+          shuffled[i].question = "Questão " + String(questionId).padStart(3,'0');
+        }
+
         return shuffled.slice(0, testSize);
       })
     );

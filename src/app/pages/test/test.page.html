@@ -16,7 +16,7 @@
     [isMarked]="markedForLater.includes(questions[currentIndex].id)"
     (answerSelect)="onAnswerSelect($event)">
   </app-question>
-  <div class="mt-8 flex space-x-3 ">
+  <div class="mt-8 flex space-x-3 justify-center">
     <button
       (click)="navigate(-1)"
       [disabled]="currentIndex===0"

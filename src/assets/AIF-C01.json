@@ -1411,6 +1411,686 @@
         "reference": "https://aws.amazon.com/pt/fraud-detector/",
         "topics": ["AWS AI Services", "Fraud Detection", "Amazon Fraud Detector"],
         "test": "AIF-C01"
+      },
+      {
+        "id": "A001",
+        "question": "Questão A001",
+        "text": "Qual é a definição de Machine Learning (ML)?",
+        "options": [
+          { "1": "Um campo da inteligência artificial que se concentra em criar sistemas que podem entender e gerar conteúdo semelhante ao humano." },
+          { "2": "Uma técnica que permite aos computadores aprender com dados e melhorar sua performance em tarefas específicas sem serem explicitamente programados." },
+          { "3": "Uma forma de inteligência artificial que imita o funcionamento do cérebro humano." },
+          { "4": "Uma abordagem que usa regras pré-definidas para tomar decisões." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Machine Learning é uma subárea da inteligência artificial que envolve o desenvolvimento de algoritmos que permitem aos computadores aprender e fazer previsões ou decisões com base em dados, sem serem explicitamente programados para cada tarefa específica.",
+        "reference": "https://aws.amazon.com/what-is/machine-learning/",
+        "topics": ["Fundamentos de AI e ML", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A002",
+        "question": "Questão A002",
+        "text": "Qual serviço da AWS é usado para transcrever fala em texto?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Transcribe" },
+          { "3": "Amazon Lex" },
+          { "4": "Amazon Polly" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Amazon Transcribe é um serviço de processamento de linguagem natural que usa aprendizado de máquina para converter fala em texto, ideal para transcrições automáticas.",
+        "reference": "https://aws.amazon.com/transcribe/",
+        "topics": ["Fundamentos de AI e ML", "Casos de Uso Práticos", "AWS Services"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A003",
+        "question": "Questão A003",
+        "text": "Qual das seguintes etapas faz parte do ciclo de desenvolvimento de aprendizado de máquina?",
+        "options": [
+          { "1": "Coleta de dados" },
+          { "2": "Treinamento do modelo" },
+          { "3": "Implantação do modelo" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "O ciclo de desenvolvimento de aprendizado de máquina inclui várias etapas, como coleta de dados, preparação de dados, treinamento do modelo, avaliação, implantação e monitoramento.",
+        "reference": "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/well-architected-machine-learning-lifecycle.html",
+        "topics": ["Fundamentos de AI e ML", "Ciclo de Desenvolvimento de ML"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A004",
+        "question": "Questão A004",
+        "text": "O que é uma rede neural no contexto de aprendizado de máquina?",
+        "options": [
+          { "1": "Um conjunto de regras fixas para processar dados." },
+          { "2": "Um modelo inspirado no cérebro humano que processa dados em camadas." },
+          { "3": "Um banco de dados para armazenar embeddings." },
+          { "4": "Um serviço da AWS para treinar modelos de ML." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Uma rede neural é um modelo de aprendizado de máquina inspirado no cérebro humano, composto por camadas de nós que processam dados para identificar padrões complexos.",
+        "reference": "https://aws.amazon.com/what-is/deep-learning/",
+        "topics": ["Fundamentos de AI e ML", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A005",
+        "question": "Questão A005",
+        "text": "Qual é a diferença entre aprendizado supervisionado e não supervisionado?",
+        "options": [
+          { "1": "O supervisionado usa dados rotulados, enquanto o não supervisionado usa dados não rotulados." },
+          { "2": "O supervisionado é mais rápido, enquanto o não supervisionado é mais preciso." },
+          { "3": "O supervisionado é usado apenas para classificação, enquanto o não supervisionado é para regressão." },
+          { "4": "O supervisionado não requer dados, enquanto o não supervisionado requer." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "O aprendizado supervisionado utiliza dados rotulados para treinar modelos, enquanto o aprendizado não supervisionado trabalha com dados não rotulados para encontrar padrões.",
+        "reference": "https://aws.amazon.com/what-is/machine-learning/",
+        "topics": ["Fundamentos de AI e ML", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A006",
+        "question": "Questão A006",
+        "text": "O que é aprendizado profundo (deep learning)?",
+        "options": [
+          { "1": "Um método de IA que usa redes neurais com várias camadas para processar dados." },
+          { "2": "Um processo de treinamento de modelos com regras fixas." },
+          { "3": "Uma técnica para armazenar grandes quantidades de dados." },
+          { "4": "Um serviço da AWS para análise de dados." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Aprendizado profundo é uma subárea de aprendizado de máquina que utiliza redes neurais com várias camadas para processar dados complexos e realizar tarefas como reconhecimento de imagem.",
+        "reference": "https://aws.amazon.com/what-is/deep-learning/",
+        "topics": ["Fundamentos de AI e ML", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A007",
+        "question": "Questão A007",
+        "text": "Qual é um exemplo de caso de uso para aprendizado de máquina?",
+        "options": [
+          { "1": "Sistemas de recomendação em plataformas de streaming." },
+          { "2": "Armazenamento de dados em bancos relacionais." },
+          { "3": "Gerenciamento de permissões de usuário." },
+          { "4": "Criação de regras de firewall." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Sistemas de recomendação, como os usados em plataformas de streaming, utilizam aprendizado de máquina para sugerir conteúdo com base no histórico do usuário.",
+        "reference": "https://aws.amazon.com/what-is/machine-learning/",
+        "topics": ["Fundamentos de AI e ML", "Casos de Uso Práticos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A008",
+        "question": "Questão A008",
+        "text": "O que é inferência no contexto de aprendizado de máquina?",
+        "options": [
+          { "1": "O processo de treinar um modelo com dados históricos." },
+          { "2": "O uso de um modelo treinado para fazer previsões em novos dados." },
+          { "3": "A criação de um banco de dados para armazenar modelos." },
+          { "4": "A avaliação da performance de um modelo." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Inferência é o processo de usar um modelo de aprendizado de máquina treinado para fazer previsões ou tomar decisões com base em novos dados.",
+        "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-ml-concepts.html",
+        "topics": ["Fundamentos de AI e ML", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A009",
+        "question": "Questão A009",
+        "text": "O que são tokens no contexto de IA generativa?",
+        "options": [
+          { "1": "Unidades básicas de dados que representam palavras ou partes de palavras." },
+          { "2": "Modelos de linguagem grandes treinados em grandes conjuntos de dados." },
+          { "3": "Técnicas para melhorar a qualidade das respostas de um modelo de IA." },
+          { "4": "Métodos para avaliar a performance de modelos de ML." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Em IA generativa, tokens são as unidades básicas em que o texto é dividido, geralmente correspondendo a palavras ou partes de palavras, e são usadas como entrada para modelos de linguagem.",
+        "reference": "https://aws.amazon.com/blogs/machine-learning/optimizing-costs-of-generative-ai-applications-on-aws/",
+        "topics": ["Fundamentos de IA Generativa", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A010",
+        "question": "Questão A010",
+        "text": "O que é um modelo de linguagem grande (LLM)?",
+        "options": [
+          { "1": "Um modelo de IA treinado em grandes quantidades de dados de texto para gerar respostas semelhantes às humanas." },
+          { "2": "Um banco de dados para armazenar embeddings de texto." },
+          { "3": "Um serviço da AWS para treinar modelos de ML." },
+          { "4": "Uma técnica para reduzir o tamanho de modelos de IA." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Um modelo de linguagem grande (LLM) é treinado em vastos conjuntos de dados de texto para realizar tarefas como geração de texto, tradução e resposta a perguntas.",
+        "reference": "https://aws.amazon.com/what-is/large-language-model/",
+        "topics": ["Fundamentos de IA Generativa", "Conceitos Básicos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A011",
+        "question": "Questão A011",
+        "text": "Qual é uma limitação comum dos modelos de IA generativa?",
+        "options": [
+          { "1": "Incapacidade de gerar texto em diferentes idiomas" },
+          { "2": "Possibilidade de gerar informações incorretas ou 'alucinações'" },
+          { "3": "Falta de suporte a modelos de linguagem grandes" },
+          { "4": "Alta velocidade de processamento" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Um dos principais desafios dos modelos de IA generativa é a possibilidade de gerar informações que não são verdadeiras, conhecidas como 'alucinações', onde o modelo produz respostas que parecem plausíveis mas estão incorretas.",
+        "reference": "https://aws.amazon.com/blogs/machine-learning/minimize-generative-ai-hallucinations-with-amazon-bedrock-automated-reasoning-checks/",
+        "topics": ["Fundamentos de IA Generativa", "Limitações"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A012",
+        "question": "Questão A012",
+        "text": "O que é engenharia de prompt em IA generativa?",
+        "options": [
+          { "1": "O processo de treinar modelos de IA com novos dados." },
+          { "2": "A prática de criar prompts otimizados para obter respostas desejadas de modelos de IA." },
+          { "3": "A avaliação da performance de modelos de IA." },
+          { "4": "O armazenamento de dados em bancos vetoriais." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Engenharia de prompt é a prática de criar e otimizar prompts para guiar modelos de IA generativa a produzir respostas relevantes e de alta qualidade.",
+        "reference": "https://aws.amazon.com/what-is/prompt-engineering/",
+        "topics": ["Fundamentos de IA Generativa", "Engenharia de Prompt"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A013",
+        "question": "Questão A013",
+        "text": "Quais das seguintes são técnicas de engenharia de prompt? (Selecione todas as aplicáveis)",
+        "options": [
+          { "a": "Chain-of-thought" },
+          { "b": "Zero-shot learning" },
+          { "c": "Few-shot learning" },
+          { "d": "Treinamento de modelos do zero" }
+        ],
+        "optiontype": "multiple",
+        "answer": ["a", "b", "c"],
+        "explanation": "Chain-of-thought, zero-shot learning e few-shot learning são técnicas de engenharia de prompt que ajudam a melhorar as respostas de modelos de IA generativa, enquanto treinar modelos do zero não é uma técnica de prompt.",
+        "reference": "https://aws.amazon.com/what-is/prompt-engineering/",
+        "topics": ["Fundamentos de IA Generativa", "Engenharia de Prompt"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A014",
+        "question": "Questão A014",
+        "text": "O que é Retrieval-Augmented Generation (RAG)?",
+        "options": [
+          { "1": "Uma técnica para treinar modelos de IA do zero." },
+          { "2": "Um método que combina recuperação de dados com geração de texto para melhorar respostas." },
+          { "3": "Um serviço da AWS para armazenar dados." },
+          { "4": "Uma métrica para avaliar modelos de IA." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "RAG combina recuperação de informações relevantes de uma base de dados com geração de texto para produzir respostas mais precisas e contextuais.",
+        "reference": "https://aws.amazon.com/blogs/machine-learning/optimizing-costs-of-generative-ai-applications-on-aws/",
+        "topics": ["Fundamentos de IA Generativa", "Técnicas Avançadas"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A015",
+        "question": "Questão A015",
+        "text": "Qual é um benefício de usar a infraestrutura de IA generativa da AWS?",
+        "options": [
+          { "1": "Redução dos custos de treinamento de modelos" },
+          { "2": "Aumento da velocidade de processamento" },
+          { "3": "Melhoria na segurança e conformidade" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "A infraestrutura de IA generativa da AWS oferece benefícios como redução de custos, aumento da velocidade de processamento e melhoria na segurança e conformidade, graças a serviços como Amazon SageMaker e Amazon Bedrock.",
+        "reference": "https://aws.amazon.com/generative-ai/",
+        "topics": ["Fundamentos de IA Generativa", "Infraestrutura AWS"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A016",
+        "question": "Questão A016",
+        "text": "Qual serviço da AWS permite acesso a modelos de fundação via API?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Bedrock" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Lex" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Amazon Bedrock é um serviço totalmente gerenciado que fornece acesso a modelos de fundação via API, permitindo a construção de aplicações de IA generativa.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Fundamentos de IA Generativa", "AWS Services"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A017",
+        "question": "Questão A017",
+        "text": "Como o Amazon SageMaker suporta IA generativa?",
+        "options": [
+          { "1": "Fornecendo modelos pré-treinados via SageMaker JumpStart." },
+          { "2": "Armazenando dados sensíveis em buckets S3." },
+          { "3": "Gerenciando permissões de usuário." },
+          { "4": "Criando regras de firewall." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Amazon SageMaker suporta IA generativa por meio do SageMaker JumpStart, que oferece modelos pré-treinados e ferramentas para personalização.",
+        "reference": "https://aws.amazon.com/sagemaker/jumpstart/",
+        "topics": ["Fundamentos de IA Generativa", "AWS Services"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A018",
+        "question": "Questão A018",
+        "text": "O que é o Amazon Titan?",
+        "options": [
+          { "1": "Um modelo de fundação desenvolvido pela AWS para tarefas de IA generativa." },
+          { "2": "Um serviço de armazenamento de dados." },
+          { "3": "Uma ferramenta para monitoramento de modelos." },
+          { "4": "Um serviço de segurança para dados sensíveis." }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Amazon Titan é uma família de modelos de fundação desenvolvidos pela AWS, otimizados para tarefas como geração de texto e imagens.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Fundamentos de IA Generativa", "AWS Services"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A019",
+        "question": "Questão A019",
+        "text": "Qual é uma consideração de design ao escolher um modelo de linguagem para uma aplicação de IA generativa?",
+        "options": [
+          { "1": "O custo de uso do modelo" },
+          { "2": "O tipo de dados que o modelo pode processar" },
+          { "3": "O tempo de resposta do modelo" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "Ao escolher um modelo de linguagem, é essencial considerar o custo associado ao seu uso, os tipos de dados que ele pode processar efetivamente, e o tempo de resposta, que afeta a experiência do usuário.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Aplicações de Modelos de Fundação", "Considerações de Design"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A020",
+        "question": "Questão A020",
+        "text": "O que é fine-tuning em modelos de linguagem?",
+        "options": [
+          { "1": "Treinar um modelo do zero com um novo conjunto de dados" },
+          { "2": "Ajustar um modelo pré-treinado com dados específicos para uma tarefa particular" },
+          { "3": "Avaliar a performance de um modelo em um conjunto de teste" },
+          { "4": "Monitorar o desempenho de um modelo em produção" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Fine-tuning é o processo de ajustar um modelo de linguagem pré-treinado com um conjunto de dados específico para melhorar seu desempenho em uma tarefa particular.",
+        "reference": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-large-language-models-on-amazon-sagemaker/",
+        "topics": ["Aplicações de Modelos de Fundação", "Fine-Tuning"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A021",
+        "question": "Questão A021",
+        "text": "O que é aprendizado por transferência (transfer learning)?",
+        "options": [
+          { "1": "Treinar um modelo do zero para cada nova tarefa." },
+          { "2": "Usar um modelo pré-treinado como base para uma nova tarefa." },
+          { "3": "Avaliar a performance de um modelo em produção." },
+          { "4": "Armazenar dados em um banco vetorial." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Aprendizado por transferência envolve usar um modelo pré-treinado como ponto de partida, ajustando-o para uma nova tarefa com menos dados de treinamento.",
+        "reference": "https://aws.amazon.com/what-is/machine-learning/",
+        "topics": ["Aplicações de Modelos de Fundação", "Treinamento"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A022",
+        "question": "Questão A022",
+        "text": "Qual métrica é usada para avaliar modelos de IA generativa?",
+        "options": [
+          { "1": "ROUGE" },
+          { "2": "BLEU" },
+          { "3": "BERTScore" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "ROUGE, BLEU e BERTScore são métricas comuns usadas para avaliar a qualidade de textos gerados por modelos de IA generativa, comparando-os com referências humanas.",
+        "reference": "https://aws.amazon.com/blogs/machine-learning/",
+        "topics": ["Aplicações de Modelos de Fundação", "Avaliação de Performance"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A023",
+        "question": "Questão A023",
+        "text": "O que é um banco de dados vetorial?",
+        "options": [
+          { "1": "Um banco de dados relacional para armazenar dados estruturados." },
+          { "2": "Um banco de dados otimizado para armazenar e recuperar embeddings vetoriais." },
+          { "3": "Um serviço para treinar modelos de IA." },
+          { "4": "Uma ferramenta para monitoramento de modelos." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Um banco de dados vetorial é projetado para armazenar e recuperar embeddings vetoriais, permitindo buscas rápidas baseadas em similaridade, como no Amazon OpenSearch.",
+        "reference": "https://aws.amazon.com/opensearch-service/",
+        "topics": ["Aplicações de Modelos de Fundação", "Bancos de Dados"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A024",
+        "question": "Questão A024",
+        "text": "Como o RAG funciona com o Amazon Bedrock?",
+        "options": [
+          { "1": "Treina modelos do zero com dados externos." },
+          { "2": "Recupera informações relevantes e as combina com geração de texto." },
+          { "3": "Monitora a performance de modelos em tempo real." },
+          { "4": "Armazena dados sensíveis em buckets S3." }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "No Amazon Bedrock, o RAG recupera informações relevantes de uma base de conhecimento e as integra na geração de texto para melhorar a precisão das respostas.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Aplicações de Modelos de Fundação", "RAG"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A025",
+        "question": "Questão A025",
+        "text": "Quais são os custos associados à personalização de modelos no Amazon Bedrock?",
+        "options": [
+          { "1": "Custos de treinamento e inferência" },
+          { "2": "Custos de armazenamento de dados" },
+          { "3": "Custos de monitoramento de modelos" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "A personalização de modelos no Amazon Bedrock envolve custos de treinamento, inferência e armazenamento de dados, dependendo da configuração e uso.",
+        "reference": "https://aws.amazon.com/bedrock/pricing/",
+        "topics": ["Aplicações de Modelos de Fundação", "Custos"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A026",
+        "question": "Questão A026",
+        "text": "Qual é uma das principais vantagens do uso de modelos de base em aplicações de IA?",
+        "options": [
+          { "1": "Redução do tempo de treinamento" },
+          { "2": "Capacidade de aprender com menos dados" },
+          { "3": "Melhoria na segurança dos dados" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "Modelos de base oferecem várias vantagens, incluindo a redução do tempo de treinamento, a capacidade de aprender com menos dados e melhorias na segurança dos dados, graças a serviços como Amazon Bedrock e Amazon SageMaker.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Aplicações de Modelos de Fundação", "Vantagens"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A027",
+        "question": "Questão A027",
+        "text": "Qual é um desafio comum ao usar modelos de base?",
+        "options": [
+          { "1": "Alta latência de resposta" },
+          { "2": "Dificuldade em personalizar para tarefas específicas" },
+          { "3": "Limitações na escalabilidade" },
+          { "4": "Todos os anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Um dos principais desafios ao usar modelos de base é a personalização para tarefas específicas, que pode exigir fine-tuning ou engenharia de prompt.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Aplicações de Modelos de Fundação", "Desafios"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A028",
+        "question": "Questão A028",
+        "text": "O que é engenharia de prompt em modelos de IA generativa?",
+        "options": [
+          { "1": "O processo de treinar modelos de IA com novos dados" },
+          { "2": "A prática de criar prompts otimizados para obter respostas desejadas de modelos de IA" },
+          { "3": "A avaliação da performance de modelos de IA" },
+          { "4": "O armazenamento de dados em bancos vetoriais" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Engenharia de prompt é a prática de criar e otimizar prompts para guiar modelos de IA generativa a produzir respostas relevantes e de alta qualidade.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Aplicações de Modelos de Fundação", "Engenharia de Prompt"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A029",
+        "question": "Questão A029",
+        "text": "Qual serviço da AWS permite personalizar modelos de fundação para tarefas específicas?",
+        "options": [
+          { "1": "Amazon SageMaker" },
+          { "2": "Amazon Bedrock" },
+          { "3": "Amazon Comprehend" },
+          { "4": "Amazon Lex" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Amazon Bedrock permite personalizar modelos de fundação para tarefas específicas, oferecendo acesso a modelos pré-treinados e ferramentas para fine-tuning.",
+        "reference": "https://aws.amazon.com/bedrock/",
+        "topics": ["Aplicações de Modelos de Fundação", "AWS Services"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A030",
+        "question": "Questão A030",
+        "text": "Qual é um dos princípios da IA responsável?",
+        "options": [
+          { "1": "Viés" },
+          { "2": "Imparcialidade" },
+          { "3": "Exclusão" },
+          { "4": "Fragilidade" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Um dos princípios da IA responsável é a imparcialidade, que garante que o modelo não favoreça um grupo em detrimento de outro.",
+        "reference": "https://aws.amazon.com/machine-learning/responsible-ai/",
+        "topics": ["Diretrizes de IA Responsável", "Princípios"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A031",
+        "question": "Questão A031",
+        "text": "Por que a mitigação de viés é importante em modelos de IA?",
+        "options": [
+          { "1": "Para garantir que o modelo seja mais rápido" },
+          { "2": "Para evitar discriminação e resultados injustos" },
+          { "3": "Para reduzir o custo de treinamento" },
+          { "4": "Para aumentar a complexidade do modelo" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "A mitigação de viés é crucial para evitar que modelos de IA produzam resultados discriminatórios ou injustos, garantindo igualdade e justiça.",
+        "reference": "https://aws.amazon.com/machine-learning/responsible-ai/",
+        "topics": ["Diretrizes de IA Responsável", "Viés e Imparcialidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A032",
+        "question": "Questão A032",
+        "text": "O que é explainability em IA?",
+        "options": [
+          { "1": "A capacidade de um modelo de IA de explicar suas decisões" },
+          { "2": "O processo de treinar modelos de IA com dados explicativos" },
+          { "3": "A avaliação da performance de modelos de IA" },
+          { "4": "O armazenamento de dados em bancos vetoriais" }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Explainability em IA refere-se à capacidade de um modelo de explicar suas decisões e previsões, o que é essencial para a transparência e confiança.",
+        "reference": "https://aws.amazon.com/machine-learning/responsible-ai/",
+        "topics": ["Diretrizes de IA Responsável", "Explainability"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A033",
+        "question": "Questão A033",
+        "text": "Qual ferramenta da AWS é usada para detectar viés em modelos de ML?",
+        "options": [
+          { "1": "Amazon SageMaker Clarify" },
+          { "2": "Amazon SageMaker Debugger" },
+          { "3": "Amazon SageMaker Model Monitor" },
+          { "4": "Amazon SageMaker Ground Truth" }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Amazon SageMaker Clarify é uma ferramenta que ajuda a detectar e mitigar viés em modelos de aprendizado de máquina.",
+        "reference": "https://aws.amazon.com/sagemaker/clarify/",
+        "topics": ["Diretrizes de IA Responsável", "Ferramentas AWS"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A034",
+        "question": "Questão A034",
+        "text": "O que é conformidade regulatória em IA?",
+        "options": [
+          { "1": "Aderir a padrões de segurança de dados" },
+          { "2": "Seguir leis e regulamentos específicos relacionados ao uso de IA" },
+          { "3": "Garantir que o modelo seja treinado com dados limpos" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Conformidade regulatória em IA envolve seguir leis e regulamentos específicos, como GDPR ou CCPA, que ditam como os dados devem ser coletados, processados e armazenados.",
+        "reference": "https://aws.amazon.com/compliance/",
+        "topics": ["Diretrizes de IA Responsável", "Conformidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A035",
+        "question": "Questão A035",
+        "text": "Como a AWS ajuda a garantir a conformidade regulatória em soluções de IA?",
+        "options": [
+          { "1": "Fornecendo ferramentas para monitoramento de conformidade" },
+          { "2": "Oferecendo certificações de conformidade para serviços de IA" },
+          { "3": "Fornecendo documentação sobre práticas recomendadas" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "A AWS oferece uma combinação de ferramentas, certificações e documentação para ajudar os clientes a garantirem a conformidade regulatória em suas soluções de IA.",
+        "reference": "https://aws.amazon.com/compliance/",
+        "topics": ["Diretrizes de IA Responsável", "Conformidade"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A036",
+        "question": "Questão A036",
+        "text": "Quais são métodos para proteger sistemas de IA?",
+        "options": [
+          { "1": "Usar políticas de IAM" },
+          { "2": "Implementar criptografia" },
+          { "3": "Monitorar atividades de usuário" },
+          { "4": "Todas as anteriores" }
+        ],
+        "optiontype": "unique",
+        "answer": 4,
+        "explanation": "A proteção de sistemas de IA envolve o uso de políticas de IAM, criptografia e monitoramento de atividades de usuário para garantir segurança e conformidade.",
+        "reference": "https://aws.amazon.com/security/",
+        "topics": ["Segurança, Conformidade e Governança", "Métodos de Proteção"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A037",
+        "question": "Questão A037",
+        "text": "Qual é o papel das políticas de IAM em soluções de IA?",
+        "options": [
+          { "1": "Controlar o acesso a recursos de IA" },
+          { "2": "Treinar modelos de IA" },
+          { "3": "Armazenar dados de IA" },
+          { "4": "Monitorar desempenho de modelos" }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Políticas de IAM são usadas para controlar o acesso a recursos de IA, garantindo que apenas usuários autorizados possam acessar e manipular dados e modelos.",
+        "reference": "https://aws.amazon.com/iam/",
+        "topics": ["Segurança, Conformidade e Governança", "IAM"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A038",
+        "question": "Questão A038",
+        "text": "Por que a criptografia é importante em soluções de IA?",
+        "options": [
+          { "1": "Para proteger dados sensíveis durante o processamento e armazenamento" },
+          { "2": "Para aumentar a velocidade de treinamento de modelos" },
+          { "3": "Para reduzir o custo de armazenamento" },
+          { "4": "Para melhorar a precisão dos modelos" }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "A criptografia é essencial para proteger dados sensíveis em soluções de IA, garantindo que eles permaneçam seguros durante o processamento, transmissão e armazenamento.",
+        "reference": "https://aws.amazon.com/security/",
+        "topics": ["Segurança, Conformidade e Governança", "Criptografia"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A039",
+        "question": "Questão A039",
+        "text": "Qual ferramenta da AWS é usada para rastrear a origem e o processamento de dados em soluções de IA?",
+        "options": [
+          { "1": "Amazon SageMaker Data Wrangler" },
+          { "2": "Amazon SageMaker Clarify" },
+          { "3": "Amazon SageMaker Debugger" },
+          { "4": "Amazon SageMaker Model Monitor" }
+        ],
+        "optiontype": "unique",
+        "answer": 1,
+        "explanation": "Amazon SageMaker Data Wrangler é usado para rastrear a origem e o processamento de dados, garantindo transparência e conformidade em soluções de IA.",
+        "reference": "https://aws.amazon.com/sagemaker/data-wrangler/",
+        "topics": ["Segurança, Conformidade e Governança", "Governança"],
+        "test": "AIF-C01"
+      },
+      {
+        "id": "A040",
+        "question": "Questão A040",
+        "text": "O que é governança em soluções de IA?",
+        "options": [
+          { "1": "O processo de treinar modelos de IA" },
+          { "2": "O conjunto de práticas e controles para gerenciar riscos e garantir conformidade" },
+          { "3": "A avaliação da performance de modelos de IA" },
+          { "4": "O armazenamento de dados em bancos vetoriais" }
+        ],
+        "optiontype": "unique",
+        "answer": 2,
+        "explanation": "Governança em soluções de IA refere-se ao conjunto de práticas e controles implementados para gerenciar riscos, garantir conformidade e manter a integridade dos dados e modelos.",
+        "reference": "https://aws.amazon.com/compliance/",
+        "topics": ["Segurança, Conformidade e Governança", "Governança"],
+        "test": "AIF-C01"
       }
 
     ]
